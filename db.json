@@ -1,13 +1,14 @@
 {
 	"dataSourceType": "sql/data",
-	"sql": {
+	"sql":{
 		"columnNames": "",
 		"tableName": "",
 		"clause": ""
-	},
+		},
 	"dataSets": [{
 		"name": "stage_counts",
-		"data": [{
+		"data": [ 
+			       {
 				"journeyid": "43e350e3-0c1d-4aae-ae30-8c53492b732aJRNY",
 				"ordinal": 0,
 				"stageid": "d496d7e9-33a5-471d-b2b8-2b6846004633STAG",
@@ -28,7 +29,7 @@
 				"stage": "read",
 				"stagecount": 4
 				}
-				]
+			]
 		}],
 	"chartOptions": {
 		"chartType": "Pie",
@@ -36,11 +37,11 @@
 		"xaxis": {
 			"column": "stage",
 			"title": "stage"
-		},
+			},
 		"yaxis": {
 			"column": "stagecount",
 			"title": "stagecount"
-		},
+			},
 		"sortBy": "stage"
-	}
+		}
 }
